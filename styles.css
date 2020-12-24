@@ -1,0 +1,99 @@
+body {
+  max-width: 1440px;
+  text-align: center;
+  background-color: hsl(185, 75%, 39%);
+}
+
+h4 {
+  font-family: 'Kumbh Sans';
+  font-weight: 700;
+  font-size: 18px;
+  display: inline;
+}
+
+hr {
+  margin-top: 30px;
+  margin-bottom: 50px;
+  border: 0;
+  height: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+img {
+  margin: 110px 0 20px 0;
+  border-radius: 50%;
+  border: solid 5px white;
+}
+
+p {
+  font-family: 'Kumbh Sans';
+  font-weight: 400;
+  color: hsl(0, 0%, 59%);
+  margin-top: 10px;
+}
+
+.age {
+  font-family: 'Kumbh Sans';
+  font-weight: 400;
+  color: hsl(0, 0%, 59%);
+  font-size: 18px;
+  display: inline;
+}
+
+.bg1 {
+  position: fixed;
+  background-image: url(./images/bg-pattern-bottom.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: bottom right;
+  height: 100%;
+  top: 350px;
+  left: 150px;
+  width: 100%;
+  z-index: -1;
+}
+
+.bg2 {
+  position: fixed;
+  background-image: url(./images/bg-pattern-top.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: top left;
+  height: 100%;
+  bottom: 350px;
+  right: 150px;
+  width: 100%;
+  z-index: -1;
+}
+
+.followersContainer {
+  float: left;
+  width: 33.333%;
+}
+
+.likesContainer {
+  float: left;
+  width: 33.333%;
+}
+
+.loc {
+  color: hsl(0, 0%, 59%);
+}
+
+.mainContainer {
+  min-width: 300px;
+  background-image: url(./images/bg-pattern-card.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-color: white;
+  border-radius: 5%;
+  height: 450px;
+  width: 30%;
+  margin: 160px auto;
+}
+
+.photosContainer {
+  float: right;
+  width: 33.333%;
+}
